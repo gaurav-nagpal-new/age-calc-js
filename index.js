@@ -8,6 +8,7 @@ function calculateAge() {
   const birthdayDate = new Date(birthdayValue);
 
   if (birthdayDate > currentDate) {
+    console.log("I have changed something");
     alert("Please enter the valid birth date");
     return;
   }
